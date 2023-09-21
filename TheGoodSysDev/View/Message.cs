@@ -7,6 +7,9 @@ using TheGoodSysDev.Model;
 
 namespace TheGoodSysDev.View
 {
+	/// <summary>
+	/// Class <c>Message</c> contains the messages, as well as some input, used by and for the console.
+	/// </summary>
 	internal class Message
 	{
 		public ConsoleKey WaitForInput()

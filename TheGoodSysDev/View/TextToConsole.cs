@@ -7,6 +7,9 @@ using TheGoodSysDev.Model.Text;
 
 namespace TheGoodSysDev.View
 {
+	/// <summary>
+	/// Class <c>TextToConsole</c> contains the content of the "necessary text file" by using LoadTextFile and sends it to the console.
+	/// </summary>
 	internal class TextToConsole
 	{
 		LoadTextFile ltf = new LoadTextFile();

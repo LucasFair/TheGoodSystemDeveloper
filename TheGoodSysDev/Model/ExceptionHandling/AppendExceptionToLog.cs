@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace TheGoodSysDev.Model.ExceptionHandling
 {
+	/// <summary>
+	/// Class <c>AppendExceptionToLog</c> is used to reference and receive eceptions for error logging.
+	/// </summary>
 	internal class AppendExceptionToLog
 	{
 		Content content = new Content();

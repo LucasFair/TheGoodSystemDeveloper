@@ -8,8 +8,13 @@ using System.Threading.Tasks;
 
 namespace TheGoodSysDev.Model.ExceptionHandling
 {
+	/// <summary>
+	/// Class <c>MakeAppendLogFile</c> generates the log file at the start of the application,
+	/// and if it has already been made, it will append a new date for every new runtime following.
+	/// </summary>
 	internal class MakeAppendLogFile
 	{
+		AppendExceptionToLog aetl = new AppendExceptionToLog();
 		Content content = new Content();
 		DateTime currDT = DateTime.Now;
 		public void MakeLog()
@@ -33,6 +38,7 @@ namespace TheGoodSysDev.Model.ExceptionHandling
 			}
 			catch (Exception e)
 			{
+				aetl.LogError(e);
 				throw new ArgumentException(content.MakeAppendLogError, e);
 			}
 		}
