@@ -61,7 +61,7 @@ namespace TheGoodSysDev.Model.Calculator
 			catch (FormatException fe)
 			{
 				aetl.LogError(fe);
-				throw new ArgumentException(content.NoInput, fe);
+				throw new ArgumentException(content.InvalidInput, fe);
 			}
 
 			finally

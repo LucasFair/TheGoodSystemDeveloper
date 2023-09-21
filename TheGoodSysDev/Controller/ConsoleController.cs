@@ -45,7 +45,7 @@ namespace TheGoodSysDev.Controller
 				{
 					case ConsoleKey.D1:
 						cMsg.ClearConsole();
-						menu.FileMenuGUI();
+						FileMenu();
 						break;
 					case ConsoleKey.D2:
 						cMsg.ClearConsole();
@@ -94,7 +94,8 @@ namespace TheGoodSysDev.Controller
 						break;
 					case ConsoleKey.D2:
 						cMsg.ClearConsole();
-						break;
+						throw new NotImplementedException("Not implemented yet.");
+						
 					case ConsoleKey.Backspace:
 						cMsg.ClearConsole();
 						MainMenu();
