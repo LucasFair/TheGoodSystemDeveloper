@@ -1,0 +1,7 @@
+C:\Users\Fair\Documents\Hovedforløb\H1\ExceptionHandling\TheGoodSysDev\obj\Debug\TheGoodSysDev.csproj.AssemblyReference.cache
+C:\Users\Fair\Documents\Hovedforløb\H1\ExceptionHandling\TheGoodSysDev\obj\Debug\TheGoodSysDev.csproj.CoreCompileInputs.cache
+C:\Users\Fair\Documents\Hovedforløb\H1\ExceptionHandling\TheGoodSysDev\bin\Debug\TheGoodSysDev.exe.config
+C:\Users\Fair\Documents\Hovedforløb\H1\ExceptionHandling\TheGoodSysDev\bin\Debug\TheGoodSysDev.exe
+C:\Users\Fair\Documents\Hovedforløb\H1\ExceptionHandling\TheGoodSysDev\bin\Debug\TheGoodSysDev.pdb
+C:\Users\Fair\Documents\Hovedforløb\H1\ExceptionHandling\TheGoodSysDev\obj\Debug\TheGoodSysDev.exe
+C:\Users\Fair\Documents\Hovedforløb\H1\ExceptionHandling\TheGoodSysDev\obj\Debug\TheGoodSysDev.pdb
