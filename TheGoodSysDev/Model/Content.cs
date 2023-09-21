@@ -14,6 +14,7 @@ namespace TheGoodSysDev.Model
 		internal string CannotDivideZero = "Division by zero was attempted.";
 		internal string OverflowValue = "The input was either higher or lower than what is allowed.";
 		internal string InvalidInput = "There was either no input, or the input was not of the correct data type.";
+		internal string Happiness = "There is no such thing as happiness. Don't be absurd.";
 		internal string FilePathAndName = @"C:\Users\Fair\Documents\Hovedforløb\H1\ExceptionHandling\TheGoodSysDev\Asset\NeededFile.txt";
 		internal string LogPathAndName = @"C:\Users\Fair\Documents\Hovedforløb\H1\ExceptionHandling\TheGoodSysDev\Asset\LogFile.log";
 	}

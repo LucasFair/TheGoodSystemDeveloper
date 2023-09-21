@@ -11,6 +11,7 @@ namespace TheGoodSysDev.Model.ExceptionHandling
 	/// </summary>
 	internal class FindHappiness
 	{
+		Content content = new Content();
 		AppendExceptionToLog aetl = new AppendExceptionToLog();
 		public void GetHappiness()
 		{
@@ -21,7 +22,7 @@ namespace TheGoodSysDev.Model.ExceptionHandling
 			catch (NotImplementedException nie)
 			{
 				aetl.LogError(nie);
-				throw new NotImplementedException();
+				throw new NotImplementedException(content.Happiness, nie);
 			}
 		}
 	}

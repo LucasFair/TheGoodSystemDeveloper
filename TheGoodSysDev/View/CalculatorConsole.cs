@@ -18,7 +18,7 @@ namespace TheGoodSysDev.View
 		}
 		public void WelcomeCalc()
 		{
-            Console.WriteLine("Welcome to this basic calculator.\nYou can input two numbers, then choose to either\n" +
+            Console.WriteLine("Welcome to this basic calculator. It only takes bytes, 0 to 255.\nYou can input two numbers, then choose to either\n" +
 				"add them together, subtract them, multiply or even divide them.\nHave fun!\n");
         }
 		public void EnterNumberA()

@@ -49,8 +49,7 @@ namespace TheGoodSysDev.Controller
 						break;
 					case ConsoleKey.D2:
 						cMsg.ClearConsole();
-						ttc.OpenPrintText();
-						break;
+						throw new NotImplementedException("TEMP MSG: Not implemented yet.");
 					case ConsoleKey.D3:
 						cMsg.ClearConsole();
 						calcCon.WelcomeCalc();
@@ -94,8 +93,8 @@ namespace TheGoodSysDev.Controller
 						break;
 					case ConsoleKey.D2:
 						cMsg.ClearConsole();
-						throw new NotImplementedException("Not implemented yet.");
-						
+						ttc.OpenPrintText();
+						break;
 					case ConsoleKey.Backspace:
 						cMsg.ClearConsole();
 						MainMenu();
